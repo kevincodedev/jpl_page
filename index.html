@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" data-lang="es"
+        content="JPL &amp; Asociados: Consultoría experta en potenciar el talento humano y la estrategia empresarial para el éxito de su organización.">
+    <meta name="description" data-lang="en"
+        content="JPL &amp; Associates: Expert consulting to enhance human talent and business strategy for your organization's success.">
+    <meta name="keywords"
+        content="consultoría, desarrollo organizacional, talento humano, estrategia, certificación, liderazgo, formación, webinars, diplomados, cursos, consulting, organizational development, human talent, strategy, leadership">
+
+    <title>JPL &amp; Asociados</title>
+
+    <link rel="icon" href="image/ICONO-JPL-GRIS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#home" class="logo-link">
+                <picture>
+                    <source srcset="image/JPL_LOGO_COLORES.webp" type="image/webp">
+                    <img src="image/JPL_LOGO_COLORES.webp" alt="Logo JPL &amp; Asociados" class="logo-image"
+                        onerror="this.onerror=null;this.src='https://placehold.co/200x50/003366/FFFFFF?text=JPL+%26+Asociados';">
+                </picture>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active" data-lang="es">Home</a><a href="#home" class="active" data-lang="en">Home</a></li>
+                    <li><a href="#sobre-nosotros" data-lang="es">Sobre Nosotros</a><a href="#sobre-nosotros" data-lang="en">About Us</a></li>
+                    <li><a href="#areas-impacto" data-lang="es">Áreas de Impacto</a><a href="#areas-impacto" data-lang="en">Impact Areas</a></li>
+                    <li><a href="#servicios" data-lang="es">Servicios</a><a href="#servicios" data-lang="en">Services</a></li>
+                    <li><a href="#formacion" data-lang="es">Formación</a><a href="#formacion" data-lang="en">Training</a></li>
+                    <li><a href="#aliados" data-lang="es">Aliados</a><a href="#aliados" data-lang="en">Partners</a></li>
+                    <li><a href="#eventos" data-lang="es">Eventos</a><a href="#eventos" data-lang="en">Events</a></li>
+                    <li><a href="contact.html" data-lang="es">Contacto</a><a href="contact.html" data-lang="en">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Language Switcher -->
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-btn active" id="btnES" onclick="setLang('es')" aria-label="Español">ES</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" id="btnEN" onclick="setLang('en')" aria-label="English">EN</button>
+            </div>
+            <button class="hamburger" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 data-lang="es">Estrategias que Elevan, Liderazgo que Impacta</h1>
+                <h1 data-lang="en">Strategies that Elevate, Leadership that Impacts</h1>
+                <p data-lang="es">Rompemos con lo convencional para transformar tu negocio</p>
+                <p data-lang="en">We break with the conventional to transform your business</p>
+                <a href="#servicios" class="btn btn-secondary" data-lang="es">Descubre Nuestros Servicios</a>
+                <a href="#servicios" class="btn btn-secondary" data-lang="en">Discover Our Services</a>
+            </div>
+        </section>
+
+
+        <section id="sobre-nosotros" class="container">
+            <!-- Animación agregada -->
+            <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Sobre Nosotros</h2>
+            <h2 class="section-title scroll-animation fade-in-up" data-lang="en">About Us</h2>
+            <div class="about-content">
+                <!-- Animación agregada -->
+                <div class="about-image scroll-animation fade-in-left">
+                    <img src="image/Sobre_nosotros.webp" alt="Equipo de JPL &amp; Asociados"
+                        onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Nuestro+Equipo';">
+                </div>
+                <!-- Animación agregada -->
+                <div class="about-text scroll-animation fade-in-right">
+                    <h3 data-lang="es">Nuestra Misión</h3>
+                    <h3 data-lang="en">Our Mission</h3>
+                    <p data-lang="es">Impulsamos la transformación, innovación y el desarrollo sostenible para activar personas y
+                        organizaciones que generan impacto, inspiran confianza y crean futuro desde sus entornos.</p>
+                    <p data-lang="en">We drive transformation, innovation and sustainable development to activate people and
+                        organizations that generate impact, inspire trust and create the future from their environments.</p>
+                    <h3 data-lang="es">Nuestra Visión</h3>
+                    <h3 data-lang="en">Our Vision</h3>
+                    <p data-lang="es">Ser el aliado estratégico que inspire, potencie y acompañe a líderes y organizaciones en la
+                        construcción de un futuro sostenible, innovador y ético.</p>
+                    <p data-lang="en">To be the strategic partner that inspires, empowers and supports leaders and organizations in
+                        building a sustainable, innovative and ethical future.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="areas-impacto" style="background-color: var(--color-background-grey);">
+            <div class="container">
+                <!-- Animación agregada -->
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Nuestras Áreas de Impacto</h2>
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Our Impact Areas</h2>
+                <p class="section-subtitle scroll-animation fade-in-up" data-lang="es">Diseñamos soluciones a la medida en áreas clave
+                    para impulsar el crecimiento y la eficiencia de su organización.</p>
+                <p class="section-subtitle scroll-animation fade-in-up" data-lang="en">We design tailored solutions in key areas
+                    to drive the growth and efficiency of your organization.</p>
+            </div>
+
+
+            <!-- Animación agregada -->
+            <div class="swiper-container impact-carousel scroll-animation fade-in-up">
+
+                <div class="swiper-wrapper">
+                </div>
+
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <section id="servicios" class="container">
+                <!-- Animación agregada -->
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Nuestros Servicios</h2>
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Our Services</h2>
+                <p class="section-subtitle scroll-animation fade-in-up" data-lang="es">Un portafolio de soluciones diseñadas para
+                    impulsar el talento y la productividad de tu organización.</p>
+                <p class="section-subtitle scroll-animation fade-in-up" data-lang="en">A portfolio of solutions designed to
+                    boost the talent and productivity of your organization.</p>
+
+                <div class="expertise-item">
+                    <!-- Animación agregada -->
+                    <div class="expertise-text scroll-animation fade-in-right">
+                        <h3 data-lang="es">Desarrollo de Competencias Gerenciales</h3>
+                        <h3 data-lang="en">Managerial Skills Development</h3>
+                        <p data-lang="es">Fortalecemos el liderazgo, la comunicación asertiva, el trabajo en equipo y la toma de
+                            decisiones estratégicas en los líderes de su organización a través de programas de formación de alto
+                            impacto.</p>
+                        <p data-lang="en">We strengthen leadership, assertive communication, teamwork and strategic decision-making
+                            in your organization's leaders through high-impact training programs.</p>
+                    </div>
+                    <!-- Animación agregada -->
+                    <div class="expertise-image scroll-animation fade-in-left">
+                        <img src="image/Desarrollo de Competencias Gerenciales.webp" alt="Desarrollo de Competencias"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Servicio+1';">
+                    </div>
+                </div>
+
+                <div class="expertise-item reverse">
+                    <!-- Animación agregada -->
+                    <div class="expertise-image scroll-animation fade-in-right">
+                        <img src="image/experiencias_vivenciales.webp" alt="Team Building"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Servicio+2';">
+                    </div>
+                    <!-- Animación agregada -->
+                    <div class="expertise-text scroll-animation fade-in-left">
+                        <h3 data-lang="es">Team Building y Experiencias Vivenciales</h3>
+                        <h3 data-lang="en">Team Building and Experiential Programs</h3>
+                        <p data-lang="es">Diseñamos y facilitamos actividades de alto impacto, tanto presenciales como virtuales, para
+                            fortalecer la cohesión, la confianza y la colaboración en los equipos de trabajo, mejorando el
+                            clima laboral.</p>
+                        <p data-lang="en">We design and facilitate high-impact activities, both in-person and virtual, to
+                            strengthen cohesion, trust and collaboration in work teams, improving the workplace environment.</p>
+                    </div>
+                </div>
+
+                <div class="expertise-item">
+                    <!-- Animación agregada -->
+                    <div class="expertise-text scroll-animation fade-in-right">
+                        <h3 data-lang="es">Plataformas E-learning y Gamificación</h3>
+                        <h3 data-lang="en">E-learning Platforms and Gamification</h3>
+                        <p data-lang="es">Implementamos soluciones tecnológicas de vanguardia para una formación online que sea
+                            interactiva, medible y atractiva, utilizando la gamificación para maximizar el compromiso y la
+                            retención del conocimiento.</p>
+                        <p data-lang="en">We implement cutting-edge technological solutions for online training that is
+                            interactive, measurable and engaging, using gamification to maximize commitment and
+                            knowledge retention.</p>
+                    </div>
+                    <!-- Animación agregada -->
+                    <div class="expertise-image scroll-animation fade-in-left">
+                        <img src="image/Gamificacion.webp" alt="Plataformas E-learning"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Servicio+3';">
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="formacion" style="background-color: var(--color-background-grey);">
+                <div class="container">
+                    <!-- Animación agregada -->
+                    <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Nuestra Oferta Formativa</h2>
+                    <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Our Training Offer</h2>
+                    <p class="section-subtitle scroll-animation fade-in-up" data-lang="es">Programas diseñados para potenciar el
+                        talento y catalizar el crecimiento en tu organización, acreditados por la Universidad Simón Bolívar.</p>
+                    <p class="section-subtitle scroll-animation fade-in-up" data-lang="en">Programs designed to enhance talent and catalyze
+                        growth in your organization, accredited by Universidad Simón Bolívar.</p>
+
+                    <!-- Animación agregada -->
+                    <div class="tabs-container scroll-animation fade-in-up">
+                        <div class="tab-buttons">
+                            <button class="tab-button active" data-tab="diplomados" data-lang="es">Diplomados</button>
+                            <button class="tab-button active" data-tab="diplomados" data-lang="en">Diplomas</button>
+                            <button class="tab-button" data-tab="cursos" data-lang="es">Cursos de Extensión</button>
+                            <button class="tab-button" data-tab="cursos" data-lang="en">Extension Courses</button>
+                        </div>
+
+
+                        <div class="tab-content active" id="diplomados">
+                            <div class="formation-grid">
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-brain"></i></div>
+                                    <h3 data-lang="es">Competencias Gerenciales para la Innovación y el Liderazgo</h3>
+                                    <h3 data-lang="en">Managerial Competencies for Innovation and Leadership</h3>
+                                    <p data-lang="es">Integran pensamiento estratégico, gestión emocional y liderazgo consciente,
+                                        aplicando herramientas de neurociencia, PNL y coaching.</p>
+                                    <p data-lang="en">They integrate strategic thinking, emotional management and conscious leadership,
+                                        applying neuroscience, NLP and coaching tools.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-lightbulb"></i></div>
+                                    <h3 data-lang="es">Consciencia Estratégica: Liderar en la Era de la Evolución Digital</h3>
+                                    <h3 data-lang="en">Strategic Awareness: Leading in the Age of Digital Evolution</h3>
+                                    <p data-lang="es">Desarrollan una nueva forma de liderar, integrando herramientas digitales e
+                                        innovadoras a través de una experiencia simbólica y vivencial.</p>
+                                    <p data-lang="en">They develop a new way of leading, integrating digital and
+                                        innovative tools through a symbolic and experiential experience.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-people-group"></i></div>
+                                    <h3 data-lang="es">Gestión Humana de Equipos con propósito, conexión y autonomía</h3>
+                                    <h3 data-lang="en">Human Team Management with purpose, connection and autonomy</h3>
+                                    <p data-lang="es">Desarrollan competencias de liderazgo consciente y colaborativo para gestionar
+                                        equipos resilientes y estratégicos.</p>
+                                    <p data-lang="en">They develop conscious and collaborative leadership skills to manage
+                                        resilient and strategic teams.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-rocket"></i></div>
+                                    <h3 data-lang="es">Gerencia Disruptiva</h3>
+                                    <h3 data-lang="en">Disruptive Management</h3>
+                                    <p data-lang="es">Diseñan procesos organizacionales aplicando prácticas disruptivas sensibles al
+                                        cambio emocional y tecnológico.</p>
+                                    <p data-lang="en">They design organizational processes applying disruptive practices sensitive to
+                                        emotional and technological change.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-seedling"></i></div>
+                                    <h3 data-lang="es">Liderazgo Consciente para Ecosistemas Emergentes</h3>
+                                    <h3 data-lang="en">Conscious Leadership for Emerging Ecosystems</h3>
+                                    <p data-lang="es">Diseñan ecosistemas organizacionales dinámicos mediante prácticas de liderazgo
+                                        consciente, activando el pensamiento sistémico.</p>
+                                    <p data-lang="en">They design dynamic organizational ecosystems through conscious leadership
+                                        practices, activating systemic thinking.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                                <!-- Animación agregada -->
+                                <div class="formation-card scroll-animation fade-in-up">
+                                    <div class="formation-icon"><i class="fas fa-laptop-code"></i></div>
+                                    <h3 data-lang="es">Innovación y Transformación Digital</h3>
+                                    <h3 data-lang="en">Innovation and Digital Transformation</h3>
+                                    <p data-lang="es">Diseñan soluciones digitales innovadoras para contextos organizacionales,
+                                        mediante experiencias basadas en proyectos y casos reales.</p>
+                                    <p data-lang="en">They design innovative digital solutions for organizational contexts,
+                                        through experiences based on real projects and case studies.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 120-252 horas</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-content" id="cursos">
+                            <div class="formation-grid">
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-briefcase"></i></div>
+                                    <h3 data-lang="es">Liderazgo, Gerencia y Gestión Estratégica</h3>
+                                    <h3 data-lang="en">Leadership, Management and Strategic Planning</h3>
+                                    <p data-lang="es">Desarrollar habilidades de liderazgo para gestionar equipos en entornos digitales
+                                        y fomentar una cultura de transformación.</p>
+                                    <p data-lang="en">Develop leadership skills to manage teams in digital environments
+                                        and foster a culture of transformation.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 16 horas</span>
+                                </div>
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-bullhorn"></i></div>
+                                    <h3 data-lang="es">Estrategias de Mercadeo Digital</h3>
+                                    <h3 data-lang="en">Digital Marketing Strategies</h3>
+                                    <p data-lang="es">Capacitar en la creación y ejecución de estrategias efectivas de mercadeo
+                                        digital, incluyendo SEO, SEM y redes sociales.</p>
+                                    <p data-lang="en">Training in the creation and execution of effective digital marketing
+                                        strategies, including SEO, SEM and social media.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 16 horas</span>
+                                </div>
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-chart-line"></i></div>
+                                    <h3 data-lang="es">Programa Avanzado de Ventas</h3>
+                                    <h3 data-lang="en">Advanced Sales Program</h3>
+                                    <p data-lang="es">Proporcionar herramientas y técnicas para mejorar el proceso de ventas, desde la
+                                        prospección hasta el cierre.</p>
+                                    <p data-lang="en">Provide tools and techniques to improve the sales process, from
+                                        prospecting to closing.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 24 horas</span>
+                                </div>
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-robot"></i></div>
+                                    <h3 data-lang="es">Transformación Digital e Inteligencia Artificial (IA)</h3>
+                                    <h3 data-lang="en">Digital Transformation and Artificial Intelligence (AI)</h3>
+                                    <p data-lang="es">Capacitar en la implementación de estrategias digitales y la integración de la IA
+                                        para mejorar la competitividad.</p>
+                                    <p data-lang="en">Train in the implementation of digital strategies and the integration of AI
+                                        to improve competitiveness.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 16 horas</span>
+                                </div>
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-book-open"></i></div>
+                                    <h3 data-lang="es">Fundamentos Del Liderazgo</h3>
+                                    <h3 data-lang="en">Fundamentals of Leadership</h3>
+                                    <p data-lang="es">Brindar una comprensión sólida de los fundamentos del liderazgo, incluyendo
+                                        características, estilos y teorías.</p>
+                                    <p data-lang="en">Provide a solid understanding of the fundamentals of leadership, including
+                                        characteristics, styles and theories.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 16 horas</span>
+                                </div>
+                                <div class="formation-card">
+                                    <div class="formation-icon"><i class="fas fa-trophy"></i></div>
+                                    <h3 data-lang="es">Gestión De Equipos De Alto Desempeño</h3>
+                                    <h3 data-lang="en">High-Performance Team Management</h3>
+                                    <p data-lang="es">Brindar conocimientos para crear y liderar equipos que alcancen resultados
+                                        extraordinarios de manera consistente.</p>
+                                    <p data-lang="en">Provide knowledge to create and lead teams that consistently achieve
+                                        extraordinary results.</p>
+                                    <span class="duration"><i class="fas fa-clock"></i> 16 horas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="aliados" style="background-color: var(--color-secondary-blue);">
+                <div class="container">
+                    <!-- Animación agregada -->
+                    <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Nuestros Aliados Estratégicos</h2>
+                    <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Our Strategic Partners</h2>
+                    <!-- Mensaje nuevo agregado -->
+                    <p class="section-subtitle scroll-animation fade-in-up" data-lang="es">Creemos en el poder de la colaboración.
+                        Nuestros aliados son una extensión de nuestro equipo y, juntos, creamos un impacto mayor y más
+                        sostenible.</p>
+                    <p class="section-subtitle scroll-animation fade-in-up" data-lang="en">We believe in the power of collaboration.
+                        Our partners are an extension of our team and, together, we create a greater and more
+                        sustainable impact.</p>
+                    <div class="allies-grid">
+                        <!-- Animación agregada -->
+                        <a href="http://www.usb.ve/" target="_blank" class="ally-card scroll-animation fade-in-up"><img
+                                src="image/Logo_USB.png" alt="Logo Universidad Simón Bolívar"
+                                onerror="this.onerror=null;this.src='https://placehold.co/128x128/ffffff/c0c0c0?text=USB';">
+                            <h4>Universidad Simón Bolívar</h4>
+                            <p data-lang="es">Formación</p>
+                            <p data-lang="en">Training</p>
+                        </a>
+                        <!-- Animación agregada -->
+                        <a href="https://website.pafar.com.ve/" target="_blank"
+                            class="ally-card scroll-animation fade-in-up"><img src="image/Logo_PAFAR.png"
+                                alt="Logo PAFAR"
+                                onerror="this.onerror=null;this.src='https://placehold.co/128x128/ffffff/c0c0c0?text=PAFAR';">
+                            <h4>PAFAR</h4>
+                            <p data-lang="es">Ingeniería y Construcción</p>
+                            <p data-lang="en">Engineering &amp; Construction</p>
+                        </a>
+                        <!-- Animación agregada -->
+                        <a href="https://dempre.com/" target="_blank" class="ally-card scroll-animation fade-in-up"><img
+                                src="image/Logo_DEMPRE.png" alt="Logo Dempre"
+                                onerror="this.onerror=null;this.src='https://placehold.co/128x128/ffffff/c0c0c0?text=Dempre';">
+                            <h4>Dempre</h4>
+                            <p data-lang="es">Desarrollo Empresarial</p>
+                            <p data-lang="en">Business Development</p>
+                        </a>
+                        <!-- Animación agregada -->
+                        <a href="https://3dtres.net/" target="_blank" class="ally-card scroll-animation fade-in-up"><img
+                                src="image/Logo_3D3.png" alt="Logo 3D3"
+                                onerror="this.onerror=null;this.src='https://placehold.co/128x128/ffffff/c0c0c0?text=3D3';">
+                            <h4>3D3</h4>
+                            <p data-lang="es">Impresión 3D</p>
+                            <p data-lang="en">3D Printing</p>
+                        </a>
+                        <!-- Animación agregada -->
+                        <a href="https://enlacesmultiples.pafar.com.ve/tecnolab-kids/" target="_blank"
+                            class="ally-card scroll-animation fade-in-up"><img src="image/Logo_TecnoLabKids.png"
+                                alt="Logo TECNOLAB KIDS"
+                                onerror="this.onerror=null;this.src='https://placehold.co/128x128/ffffff/c0c0c0?text=TecnoLab';">
+                            <h4>TECNOLAB KIDS</h4>
+                            <p data-lang="es">Kits de Robótica</p>
+                            <p data-lang="en">Robotics Kits</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="eventos" class="container">
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Webinars y Eventos</h2>
+                <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Webinars &amp; Events</h2>
+                <div class="about-content">
+                    <div class="about-image scroll-animation fade-in-left">
+                        <video autoplay loop muted playsinline style="width: 100%; height: auto; border-radius: 15px;">
+                            <source src="image/WebinarsYeventos.mp4" type="video/mp4">
+                            <span data-lang="es">Lo sentimos, tu navegador no soporta videos.</span>
+                            <span data-lang="en">Sorry, your browser does not support videos.</span>
+                        </video>
+                    </div>
+                    <div class="about-text scroll-animation fade-in-right">
+                        <h3 data-lang="es">Mantente Actualizado</h3>
+                        <h3 data-lang="en">Stay Up to Date</h3>
+                        <p data-lang="es">Conectamos con nuestra comunidad a través de webinars, talleres y eventos sobre las últimas
+                            tendencias en gestión del talento, liderazgo y tecnología. Son espacios de aprendizaje y
+                            networking para conectar con expertos y colegas del sector.</p>
+                        <p data-lang="en">We connect with our community through webinars, workshops and events on the latest
+                            trends in talent management, leadership and technology. These are learning and
+                            networking spaces to connect with industry experts and colleagues.</p>
+                        <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;" data-lang="es">Suscríbete para Novedades</a>
+                        <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;" data-lang="en">Subscribe for Updates</a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="cta-contact">
+                <div class="container">
+                    <h2 class="scroll-animation fade-in-up gradient-text" style="margin-bottom: 10px;" data-lang="es">¿Tienes alguna pregunta?</h2>
+                    <h2 class="scroll-animation fade-in-up gradient-text" style="margin-bottom: 10px;" data-lang="en">Do you have any questions?</h2>
+                    <p class="scroll-animation fade-in-up" style="margin: 0 auto 25px; max-width: 720px;" data-lang="es">
+                        Estamos aquí para ayudarte. Conversemos sobre cómo podemos impulsar tu organización.
+                    </p>
+                    <p class="scroll-animation fade-in-up" style="margin: 0 auto 25px; max-width: 720px;" data-lang="en">
+                        We are here to help you. Let's talk about how we can boost your organization.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary btn-to-green scroll-animation fade-in-up" data-lang="es">
+                        Contactar ahora
+                    </a>
+                    <a href="contact.html" class="btn btn-primary btn-to-green scroll-animation fade-in-up" data-lang="en">
+                        Contact us now
+                    </a>
+                </div>
+            </section>
+
+
+    </main>
+
+
+    <footer id="main-footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <picture>
+                    <source srcset="image/JPL_LOGO_BLANCO.webp" type="image/webp">
+                    <img src="image/JPL_LOGO_BLANCO.webp" alt="Logo JPL Blanco"
+                        style="height: 50px; margin-bottom: 15px;">
+                </picture>
+                <p data-lang="es">"Estrategias que Elevan, Liderazgo que Impacta."</p>
+                <p data-lang="en">"Strategies that Elevate, Leadership that Impacts."</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-lang="es">Navegación</h4>
+                <h4 data-lang="en">Navigation</h4>
+                <ul>
+                    <li><a href="#sobre-nosotros" data-lang="es">Sobre Nosotros</a><a href="#sobre-nosotros" data-lang="en">About Us</a></li>
+                    <li><a href="#servicios" data-lang="es">Servicios</a><a href="#servicios" data-lang="en">Services</a></li>
+                    <li><a href="#eventos" data-lang="es">Eventos</a><a href="#eventos" data-lang="en">Events</a></li>
+                    <li><a href="contact.html" data-lang="es">Contacto</a><a href="contact.html" data-lang="en">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 data-lang="es">Contacto</h4>
+                <h4 data-lang="en">Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Torre Norte, Centro Comercial El Recreo, Av. Casanova, Caracas
+                    1050, Distrito Capital, Venezuela</p>
+                <p><i class="fas fa-phone"></i> +58 (426) 5718702</p>
+                <p><i class="fas fa-envelope"></i> info@jpl-asociados.com</p>
+            </div>
+            <div class="footer-social">
+                <h4 data-lang="es">Redes Sociales</h4>
+                <h4 data-lang="en">Social Media</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jpl-asociados/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/jpl.asociados" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+584265718702" target="_blank" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang="es">&copy; 2025 JPL &amp; Asociados. Todos los derechos reservados.</p>
+            <p data-lang="en">&copy; 2025 JPL &amp; Associates. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>

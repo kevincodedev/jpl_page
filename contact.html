@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" data-lang="es"
+        content="Contacta con JPL &amp; Asociados: Consultoría experta en potenciar el talento humano y la estrategia empresarial para el éxito de su organización.">
+    <meta name="description" data-lang="en"
+        content="Contact JPL &amp; Associates: Expert consulting to enhance human talent and business strategy for your organization's success.">
+    <meta name="keywords"
+        content="contacto, consultoría, desarrollo organizacional, talento humano, estrategia, certificación, liderazgo, formación, webinars, diplomados, cursos, contact, consulting, organizational development">
+
+    <title>Contacto - JPL &amp; Asociados</title>
+
+    <link rel="icon" href="image/ICONO-JPL-GRIS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <picture>
+                    <source srcset="image/JPL_LOGO_COLORES.webp" type="image/webp">
+                    <img src="image/JPL_LOGO_COLORES.png" alt="Logo JPL &amp; Asociados" class="logo-image"
+                        onerror="this.onerror=null;this.src='https://placehold.co/200x50/003366/FFFFFF?text=JPL+%26+Asociados';">
+                </picture>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang="es">Home</a><a href="index.html" data-lang="en">Home</a></li>
+                    <li><a href="index.html#sobre-nosotros" data-lang="es">Sobre Nosotros</a><a href="index.html#sobre-nosotros" data-lang="en">About Us</a></li>
+                    <li><a href="index.html#areas-impacto" data-lang="es">Áreas de Impacto</a><a href="index.html#areas-impacto" data-lang="en">Impact Areas</a></li>
+                    <li><a href="index.html#servicios" data-lang="es">Servicios</a><a href="index.html#servicios" data-lang="en">Services</a></li>
+                    <li><a href="index.html#formacion" data-lang="es">Formación</a><a href="index.html#formacion" data-lang="en">Training</a></li>
+                    <li><a href="index.html#aliados" data-lang="es">Aliados</a><a href="index.html#aliados" data-lang="en">Partners</a></li>
+                    <li><a href="index.html#eventos" data-lang="es">Eventos</a><a href="index.html#eventos" data-lang="en">Events</a></li>
+                    <li><a href="contact.html" class="active" data-lang="es">Contacto</a><a href="contact.html" class="active" data-lang="en">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Language Switcher -->
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-btn active" id="btnES" onclick="setLang('es')" aria-label="Español">ES</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" id="btnEN" onclick="setLang('en')" aria-label="English">EN</button>
+            </div>
+            <button class="hamburger" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="contacto" class="container" style="padding-top: 100px;">
+            <!-- Animación agregada -->
+            <h2 class="section-title scroll-animation fade-in-up" data-lang="es">Contáctanos</h2>
+            <h2 class="section-title scroll-animation fade-in-up" data-lang="en">Contact Us</h2>
+            <p class="section-subtitle scroll-animation fade-in-up" data-lang="es">Estamos listos para escuchar sus necesidades y diseñar una solución a su medida.</p>
+            <p class="section-subtitle scroll-animation fade-in-up" data-lang="en">We are ready to listen to your needs and design a solution tailored to you.</p>
+            <div class="contact-grid">
+                <!-- Animación agregada -->
+                <div class="contact-form scroll-animation fade-in-left">
+                    <form id="contactForm" action="#" method="POST" enctype="multipart/form-data" novalidate>
+                        <div class="form-toggle" role="tablist" aria-label="Seleccionar tipo de contacto">
+                            <button type="button" class="toggle-btn active" data-target="servicio" aria-pressed="true">
+                                <span data-lang="es">Quiero un servicio</span>
+                                <span data-lang="en">I want a service</span>
+                            </button>
+                            <button type="button" class="toggle-btn" data-target="empleo" aria-pressed="false">
+                                <span data-lang="es">Quiero trabajar con ustedes</span>
+                                <span data-lang="en">I want to work with you</span>
+                            </button>
+                        </div>
+
+                        <div class="form-section common-fields">
+                            <div class="form-group">
+                                <label for="nombre">
+                                    <span data-lang="es">Nombre Completo</span>
+                                    <span data-lang="en">Full Name</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <input type="text" id="nombre" name="nombre" autocomplete="name" required pattern="^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ\s]+$" title="Solo letras y espacios" minlength="2" maxlength="60">
+                            </div>
+                            <div class="form-group">
+                                <label for="correo">
+                                    <span data-lang="es">Correo Electrónico</span>
+                                    <span data-lang="en">Email Address</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <input type="email" id="correo" name="correo" autocomplete="email" required pattern="^[^\s@]+@[^\s@]+\.[A-Za-z]{2,63}$" title="Ingrese un correo con dominio válido (ej. usuario@dominio.com)" maxlength="254">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">
+                                    <span data-lang="es">Número de teléfono</span>
+                                    <span data-lang="en">Phone Number</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <input type="tel" id="telefono" name="telefono" inputmode="numeric" pattern="^\d{4,16}$" maxlength="16" required>
+                            </div>
+                        </div>
+
+                        <fieldset class="form-section card-section active" id="section-servicio" data-type="servicio">
+                            <legend data-lang="es">Solicitud de servicio</legend>
+                            <legend data-lang="en">Service Request</legend>
+                            <div class="form-group">
+                                <label for="mensajeServicio">
+                                    <span data-lang="es">Mensaje</span>
+                                    <span data-lang="en">Message</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <textarea id="mensajeServicio" name="mensajeServicio" rows="5" required
+                                    data-placeholder-es="Cuéntenos qué necesita y cómo podemos ayudarle"
+                                    data-placeholder-en="Tell us what you need and how we can help you"
+                                    placeholder="Cuéntenos qué necesita y cómo podemos ayudarle"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-section card-section" id="section-empleo" data-type="empleo" hidden>
+                            <legend data-lang="es">Postulación laboral</legend>
+                            <legend data-lang="en">Job Application</legend>
+
+                            <div class="form-group">
+                                <label for="puesto">
+                                    <span data-lang="es">Puesto o área de interés</span>
+                                    <span data-lang="en">Position or area of interest</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <input type="text" id="puesto" name="puesto">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="linkedin">
+                                    <span data-lang="es">Perfil de LinkedIn (opcional)</span>
+                                    <span data-lang="en">LinkedIn Profile (optional)</span>
+                                </label>
+                                <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/usuario">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cv">
+                                    <span data-lang="es">Subir CV (hoja de vida)</span>
+                                    <span data-lang="en">Upload CV (resume)</span>
+                                    <span aria-hidden="true">*</span>
+                                </label>
+                                <input type="file" id="cv" name="cv" accept="application/pdf,image/*" data-max="5242880">
+                                <small class="help-text" data-lang="es">Formato recomendado: PDF. Máximo 5 MB.</small>
+                                <small class="help-text" data-lang="en">Recommended format: PDF. Maximum 5 MB.</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensajeEmpleo">
+                                    <span data-lang="es">Mensaje</span>
+                                    <span data-lang="en">Message</span>
+                                </label>
+                                <textarea id="mensajeEmpleo" name="mensajeEmpleo" rows="4"
+                                    data-placeholder-es="Cuéntenos brevemente sobre su experiencia y motivación"
+                                    data-placeholder-en="Tell us briefly about your experience and motivation"
+                                    placeholder="Cuéntenos brevemente sobre su experiencia y motivación"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-secondary"
+                                data-loading-text-es="Enviando…" data-loading-text-en="Sending…"
+                                data-success-text-es="Enviado" data-success-text-en="Sent"
+                                data-lang-es="Enviar" data-lang-en="Send">Enviar</button>
+                            <div class="form-status" aria-live="polite" aria-atomic="true"></div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Animación agregada -->
+                <div class="contact-info scroll-animation fade-in-right">
+                    <h3 data-lang="es">Nuestra Oficina</h3>
+                    <h3 data-lang="en">Our Office</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Torre Norte, Av. Casanova, Caracas 1050, Distrito Capital, Venezuela</p>
+                    <h3 data-lang="es">Llámenos</h3>
+                    <h3 data-lang="en">Call Us</h3>
+                    <p><i class="fas fa-phone"></i> +58 (426) 5718702</p>
+                    <h3 data-lang="es">Escríbanos</h3>
+                    <h3 data-lang="en">Write to Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@jpl-asociados.com</p>
+                    <h3 data-lang="es">Horario</h3>
+                    <h3 data-lang="en">Office Hours</h3>
+                    <p data-lang="es"><i class="fas fa-clock"></i> Lunes a Viernes: 9:00 AM - 5:00 PM</p>
+                    <p data-lang="en"><i class="fas fa-clock"></i> Monday to Friday: 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <picture>
+                    <source srcset="image/JPL_LOGO_BLANCO.webp" type="image/webp">
+                    <img src="image/JPL_LOGO_BLANCO.png" alt="Logo JPL Blanco"
+                        style="height: 50px; margin-bottom: 15px;">
+                </picture>
+                <p data-lang="es">"Estrategias que Elevan, Liderazgo que Impacta."</p>
+                <p data-lang="en">"Strategies that Elevate, Leadership that Impacts."</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-lang="es">Navegación</h4>
+                <h4 data-lang="en">Navigation</h4>
+                <ul>
+                    <li><a href="index.html#sobre-nosotros" data-lang="es">Sobre Nosotros</a><a href="index.html#sobre-nosotros" data-lang="en">About Us</a></li>
+                    <li><a href="index.html#servicios" data-lang="es">Servicios</a><a href="index.html#servicios" data-lang="en">Services</a></li>
+                    <li><a href="index.html#eventos" data-lang="es">Eventos</a><a href="index.html#eventos" data-lang="en">Events</a></li>
+                    <li><a href="contact.html" data-lang="es">Contacto</a><a href="contact.html" data-lang="en">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 data-lang="es">Contacto</h4>
+                <h4 data-lang="en">Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Torre Norte, Centro Comercial El Recreo, Av. Casanova, Caracas
+                    1050, Distrito Capital, Venezuela</p>
+                <p><i class="fas fa-phone"></i> +58 (426) 5718702</p>
+                <p><i class="fas fa-envelope"></i> info@jpl-asociados.com</p>
+            </div>
+            <div class="footer-social">
+                <h4 data-lang="es">Redes Sociales</h4>
+                <h4 data-lang="en">Social Media</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jpl-asociados/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/jpl.asociados" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+584265718702" target="_blank" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang="es">&copy; 2025 JPL &amp; Asociados. Todos los derechos reservados.</p>
+            <p data-lang="en">&copy; 2025 JPL &amp; Associates. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Configuración sensible y credenciales
+mail.php
+.env
+*.local
+
+# Logs y temporales
+*.log
+tmp/
+cache/
+
+# Archivos de entorno y servidor local
+.user.ini
+php.ini
